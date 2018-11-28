@@ -1,0 +1,27 @@
+_CONCLUSION-MLPlinear8-terrorism
+
+
+what, testvalue1, testvalue2, truevalue1, truevalue2, 
+	alpha, iterations, predictedvalue1, predictedvalue2.
+
+
+terrorism_raw_zeros_retained.txt, 36, 3933, TRUE= 60025, 271143,
+	1.0, 150000, overflow errors.
+	0.001, 500, overflow errors.
+
+terrorism_stdscaler_both_features_zeros_retained.txt, -0.313678972, 0.056232363, TRUE= -0.469626072, 3.962023627,
+	0.001, 500, -0.004367, 0.000783.
+	1.0, 150000, -0.011109, 0.001992.
+
+	-works (no errors) when standardize both features, but not good at predicting.
+
+
+terrorism_minmaxscaler_both_features_zeros_retained.txt, 0.009153318, 0.042969743, TRUE= 0.013626576, 0.102600798,
+	0.001, 500, 0.030856, 0.030899.
+	1.0, 150000, 0.077084, 0.07896.
+
+	-works (no errors) when standardize both features, but not good at predicting.
+
+can go back later and create a dataset with the zeros removed if want and try that.
+
+see .ipynb
