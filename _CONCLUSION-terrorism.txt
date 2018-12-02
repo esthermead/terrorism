@@ -18,6 +18,7 @@ terrorism_stdscaler_both_features_zeros_retained.txt, -0.313678972, 0.056232363,
 
 terrorism_minmaxscaler_both_features_zeros_retained.txt, 0.009153318, 0.042969743, TRUE= 0.013626576, 0.102600798,
 	0.001, 500, 0.030856, 0.030899.
+	0.003, 2000, 0.077084, 0.078968   <---the one shown in project presenation.
 	1.0, 150000, 0.077084, 0.07896.
 
 	-works (no errors) when standardize both features, but not good at predicting.
